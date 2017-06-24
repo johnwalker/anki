@@ -39,4 +39,4 @@ qtminor = (QT_VERSION & 0x00ff00) >> 8
 qtpoint = QT_VERSION & 0xff
 
 if qtmajor < 5 or (qtmajor == 5 and qtminor < 9):
-    raise Exception("Anki requires Qt 5.9.0+")
+    pass
